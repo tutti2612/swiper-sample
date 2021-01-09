@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Swiper demo</title>
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+	<div class="c">
+		<div class="d">
+			<h1>LIVE配信</h1>
+		</div>
+
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<p>12/11</p>
+					<div class="a">
+						<div>
+							<p>20:00 - 21:00</p>
+							<div class="img">img 1</div>
+							<p>asdfsadf</p>
+							<p>asdfsadf</p>
+						</div>
+						<div>
+							<p>20:00 - 21:00</p>
+							<div class="img">img 2</div>
+							<p>asdfsadf</p>
+							<p>asdfsadf</p>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<p>12/11</p>
+					<div class="a">
+						<div>
+							<p>20:00 - 21:00</p>
+							<div class="img">img 1</div>
+							<p>asdfsadf</p>
+							<p>asdfsadf</p>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<p>12/11</p>
+					<div class="a">
+						<div>
+							<p>20:00 - 21:00</p>
+							<div class="img">img 1</div>
+							<p>asdfsadf</p>
+							<p>asdfsadf</p>
+						</div>
+						<div>
+							<p>20:00 - 21:00</p>
+							<div class="img">img 2</div>
+							<p>asdfsadf</p>
+							<p>asdfsadf</p>
+						</div>
+						<div>
+							<p>20:00 - 21:00</p>
+							<div class="img">img 3</div>
+							<p>asdfsadf</p>
+							<p>asdfsadf</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+
+		<div class="b">
+			<button>全てのLIVEを見る</button>
+		</div>
+	</div>
+
+	<!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto',
+      // spaceBetween: 0,
+      freeMode: true,
+      // pagination: {
+      //   el: '.swiper-pagination',
+      //   clickable: true,
+      // },
+    });
+	</script>
+</body>
+
+</html>
